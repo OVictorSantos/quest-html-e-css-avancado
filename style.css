@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 45px;
+}
+
+.logo a {
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: 5.59px;
+}
+
+.menu {
+    display: flex;
+    padding-top: 60px;
+    padding-right: 45px;
+}
+
+.menu li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.sobre {
+    background: #5BC241;
+    padding: 11px 7px;
+    color: white;
+}
+
+.cadastro {
+    color: white;
+    background-color: #5BC241;
+    padding: 11px 21px;
+    border-radius: 10px;
+    font-weight: 300;
+}
