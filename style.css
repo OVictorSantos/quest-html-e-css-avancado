@@ -7,28 +7,28 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding-top: 50px;
-    padding-left: 45px;
+    margin-top: 50px;
+    margin-left: 45px;
 }
 
 .logo a {
     font-weight: 800;
     font-size: 20px;
-    padding-left: 5.59px;
+    margin-left: 5.59px;
 }
 
 .menu {
     display: flex;
-    padding-top: 60px;
-    padding-right: 45px;
+    margin-top: 60px;
+    margin-right: 45px;
 }
 
 .menu li {
     list-style-type: none;
-    padding: 15px;
+    margin: 15px;
 }
 
-.sobre {
+.hover:hover {
     background: #5BC241;
     padding: 11px 7px;
     color: white;
@@ -40,4 +40,41 @@
     padding: 11px 21px;
     border-radius: 10px;
     font-weight: 300;
+}
+
+@media (max-width: 770px) {
+    .header{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin: 50px 15px;
+    }
+
+    .logo a {
+        font-size: 40px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 15px;
+    }
+
+    .menu li {
+        margin: 25px;
+    }
+
+    .menu a {
+        font-size: 40px;
+        align-content: center;
+    }
+
+    .menu .cadastro {
+        font-size: 18px;
+        padding: 15px 23px;
+    }
 }
