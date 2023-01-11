@@ -1,0 +1,77 @@
+:root {
+    --background-color: hsl(185, 75%, 39%);
+    --text-color: hsl(227, 10%, 46%);
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.card {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    font-family: 'Kumbh Sans';
+}
+
+.flex {
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-perfil {
+    display: flex;
+    width: 350px;
+    justify-content: center;
+    color: var(--text-color);
+}
+
+.foto-perfil img {
+    width: 100px;
+    border-radius: 60%;
+    margin: 25px 25px 0px 25px;
+}
+
+.info-pessoal {
+    text-align: center;
+    color: var(--text-color);
+}
+
+.info-pessoal span {
+    font-weight: bold;
+    color: black;
+    font-size: 24px;
+}
+
+.info-pessoal .idade {
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.nome,.pais {
+    margin: 20px;
+}
+
+.info-social {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    border-top: 1px solid var(--text-color);
+}
+
+.seguidores,.likes,.photos {
+    color: var(--text-color);
+    text-align: center;
+}
+
+.seguidores span,.likes span,.photos span {
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
