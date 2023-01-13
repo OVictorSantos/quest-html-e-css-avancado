@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+:root {
+    --text-color: hsl(193, 38%, 86%);
+    --advice-dice-color: hsl(150, 100%, 66%);
+    --advice-card-color: hsl(217, 19%, 24%);
+    --background-color: hsl(218, 23%, 16%);
+}

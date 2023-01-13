@@ -1,0 +1,21 @@
+body {
+    background-color: var(--background-color);
+}
+
+.card {
+    height: 250px;
+    width: 350px;
+    background-color: var(--advice-card-color);
+    border-radius: 15px;
+    display: flex;
+}
+
+.text {
+    color: var(--text-color);
+    width: 250px;
+    text-align: center;
+}
+
+.title {
+    color: var(--advice-dice-color);
+}
